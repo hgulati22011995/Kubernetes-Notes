@@ -22,7 +22,7 @@ Orchestra = all the apps, containers, pods, networks, storage.
 
 Orchestration = Kubernetes controlling and coordinating all of it.
 
-![Alt text](/images/2.png)
+![Alt text](/Images/2.png)
 
 **Imagine a Shipping Company (like FedEX)**
 
@@ -41,14 +41,14 @@ The manager (kubernetes) makes sure:
 
 # Objective of Kubernetes Traning
 
-![Alt text](/images/3.png)
+![Alt text](/Images/3.png)
 
 The main goals of kubernetes training are to:
 - **Understand Container Orcestration:** Learn how kubernetes automates deployment, scaling and management of containerized applications.
 
 - **Master Kubernetes Architecture:** Understand the roles of components like kube-apiserver, etcd, kubelet, kube-proxy, contoller manager and scheduler
 
-![Alt text](/images/4.png)
+![Alt text](/Images/4.png)
 
 - **Deploy and manage applications:** Create and manage Pods, Deployments, ReplicaSets, Services, Configmaps, Secrets and more.
 
@@ -56,7 +56,7 @@ The main goals of kubernetes training are to:
 
 - **Use Helm & CI/CD Integrations:** Automate app deployment using Helm charts and integrate kubernetes with CI/CD pipelines (like jenkins, GitLab CI, ArgoCD)
 
-![Alt text](/images/5.png)
+![Alt text](/Images/5.png)
 
 - **Prepare for Certifications:** Build hands-on skills required to pass kubernetes certifications like CKA, CKAD and CKS.
 
@@ -87,7 +87,7 @@ Here are the main Kubernetes Certifications offered by the **Cloud Native Comput
 - Duration: 2 hours (hands-on lab exam).
 - Exam Fee: ~$400 USD.
 
-![Alt text](/images/6.png)
+![Alt text](/Images/6.png)
 
 ## **CKAD - Certified Kubernetes Application Developer**
 
@@ -96,7 +96,7 @@ Here are the main Kubernetes Certifications offered by the **Cloud Native Comput
 - Duration: 2 hours (hands-on lab exam).
 - Exam Fee: ~$400 USD.
 
-![Alt text](/images/7.png)
+![Alt text](/Images/7.png)
 
 ## **CKS - Certified Kubernetes Security Specialist**
 
@@ -106,7 +106,7 @@ Here are the main Kubernetes Certifications offered by the **Cloud Native Comput
 - Duration: 2 hours (hands-on lab exam).
 - Exam Fee: ~$400 USD.
 
-![Alt text](/images/8.png)
+![Alt text](/Images/8.png)
 
 ## **KCNA - Kubenetes and Cloud Native Associate (Entry-level)**
 
@@ -115,7 +115,7 @@ Here are the main Kubernetes Certifications offered by the **Cloud Native Comput
 - Duration: 90 minutes(multiple choice)
 - Exam Fee: ~$250 USD.
 
-![Alt text](/images/9.png)
+![Alt text](/Images/9.png)
 
 # Kubernetes Training Syllabus (CKA + CKAD)
 
