@@ -16,7 +16,7 @@ It handles things like:
 
 **Orchestration =** The **act of organizing and directing** the orchestra so all instruments play in harmony at the right time.
 
-![Alt text](Images/1.png)
+![Alt text](/Images/1.png)
 
 Orchestra = all the apps, containers, pods, networks, storage.
 
