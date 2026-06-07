@@ -16,13 +16,13 @@ It handles things like:
 
 **Orchestration =** The **act of organizing and directing** the orchestra so all instruments play in harmony at the right time.
 
-![Alt text](/images/1.png)
+![Alt text](/Images/1.png)
 
 Orchestra = all the apps, containers, pods, networks, storage.
 
 Orchestration = Kubernetes controlling and coordinating all of it.
 
-![Alt text](/images/2.png)
+![Alt text](/Images/2.png)
 
 **Imagine a Shipping Company (like FedEX)**
 
@@ -45,11 +45,11 @@ Running containers **without Kubernetes:**
 
 In a standalone mode (e.g using just Docker), can lead to several operational and scalability problems, especially as your system grows.
 
-![Alt text](/images/10.png)
+![Alt text](/Images/10.png)
 
 Problems associated while running containers in standalone mode:
 
-![Alt text](/images/11.png)
+![Alt text](/Images/11.png)
 
 **1. No Built-in High Availablility**
 - Containers can fail or crash.
@@ -96,7 +96,7 @@ Problems associated while running containers in standalone mode:
 
 Using an orchestration tool like **Kubernetes** offers numerous advantages, especially for managing containerized applications at scale. Here are the key benefits:
 
-![Alt text](/images/12.png)
+![Alt text](/Images/12.png)
 
 **1. Centralized Management**
 - Manage containers, deployments, updates and configurations from a single control plane.
@@ -142,7 +142,7 @@ Using an orchestration tool like **Kubernetes** offers numerous advantages, espe
 
 # Kubernetes Arcitecture:
 
-![Alt text](/images/13.png)
+![Alt text](/Images/13.png)
 
 Kubernetes architecture is based on:
 - **Control Plane (Master Node) -** Manages the cluster.
@@ -151,9 +151,9 @@ Kubernetes architecture is based on:
 
 The **Kubernetes master node** (now often referred to as **control plane**) is the central component of a kubernetes cluster. It is responsible for managing the cluster and orchestrating all activities across the worker nodes, such as scheduling applications, maintaining the desired state, scaling and rolling out updates.
 
-![Alt text](/images/12.png)
+![Alt text](/Images/12.png)
 
-![Alt text](/images/14.png)
+![Alt text](/Images/14.png)
 
 **Key Components of the Master Node:**
 
@@ -165,7 +165,7 @@ The **Kubernetes master node** (now often referred to as **control plane**) is t
 - A distributed key-value store that stores all cluster data(state and configuration).
 - It is the single source of truth for the entire cluster.
 
-![Alt text](/images/15.png)
+![Alt text](/Images/15.png)
 
 **3. Kube-scheduler:**
 - Assigns pods to available worker nodes based on resource requirements, constraints and policies.
@@ -179,7 +179,7 @@ The **Kubernetes master node** (now often referred to as **control plane**) is t
 
 A **Kubernetes Worker Node** is a machine (physical or virtual) that runs the actual applications (containers) in a kubernetes cluster. The worker node receives instructions from the **control plane** (master node) and manages the execution of workloads.
 
-![Alt text](/images/16.png)
+![Alt text](/Images/16.png)
 
 **Key components of a Worker Node:**
 
@@ -187,7 +187,7 @@ A **Kubernetes Worker Node** is a machine (physical or virtual) that runs the ac
 - An agent that runs on every worker node.
 - It communicates with the control plane, ensuring the containers describe in the PodSpecs are running and healthy.
 
-![Alt text](/images/17.png)
+![Alt text](Images/17.png)
 
 **2. kube-proxy:**
 - A network component that manages networking rules on the node.
