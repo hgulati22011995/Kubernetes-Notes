@@ -187,7 +187,7 @@ A **Kubernetes Worker Node** is a machine (physical or virtual) that runs the ac
 - An agent that runs on every worker node.
 - It communicates with the control plane, ensuring the containers describe in the PodSpecs are running and healthy.
 
-![Alt text](Images/17.png)
+![Alt text](/Images/17.png)
 
 **2. kube-proxy:**
 - A network component that manages networking rules on the node.
